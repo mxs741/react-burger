@@ -1,0 +1,47 @@
+.header {
+  align-items: center;
+  background-color: #1C1C21;
+  min-height: 88px;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  margin: 0 auto;
+  gap: 112px;
+}
+
+.nav {
+  display: flex;
+  gap: 8px;
+}
+
+.logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  border-radius: 40px;
+  color: #8585AD;
+  cursor: pointer;
+  display: flex;
+  font-family: 'JetBrains Mono';
+  font-size: 16px;
+  font-weight: 400;
+  gap: 9px;
+  height: 56px;
+  line-height: 24px;
+  min-width: 178px;
+  padding: 16px 20px;
+}
+
+.active {
+  color: #F2F2F3;
+}
