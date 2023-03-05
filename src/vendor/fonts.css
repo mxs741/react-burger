@@ -2,12 +2,19 @@
   font-family: 'JetBrains Mono';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/JetBrainsMono/JetBrainsMono-Regular.woff2);
+  src: url(../fonts/JetBrainsMono/JetBrainsMono-Regular.woff2) format("woff2");
 }
 
 @font-face {
   font-family: 'JetBrains Mono';
   font-style: bold;
   font-weight: 700;
-  src: url(../fonts/JetBrainsMono/JetBrainsMono-Bold.woff2);
+  src: url(../fonts/JetBrainsMono/JetBrainsMono-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: 'IceLand';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/IceLand/Iceland-Regular.ttf) format("ttf");
 }
