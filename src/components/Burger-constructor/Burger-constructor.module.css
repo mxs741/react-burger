@@ -1,0 +1,55 @@
+.container {
+  position: relative;
+  width: 600px;
+  margin: 100px 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.scrollContaiter {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 8px;
+}
+
+.scrollContaiter::-webkit-scrollbar {
+  width: 8px;
+  height: 0;
+  background-color: #2F2F37;
+}
+
+.scrollContaiter::-webkit-scrollbar-thumb {
+  background-color: #8585AD;
+}
+
+.moveElement {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.lockElement {
+  margin: 0 16px 0 36px;
+}
+
+.ordering {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.price {
+  font-size: 48px;
+  margin: 0 40px 0 0;
+  font-family: 'IceLand', sans-serif;
+}
+
+.orderingIcon {
+  margin-right: 40px;
+}
